@@ -70,10 +70,10 @@ curl -X POST https://used-car-prices-project.onrender.com/predict_price/
 
 - Only one car should be added before prediction
 - API stores data in memory (resets on server restart)
-- Transmission type must be 
+- Transmission type must be : 
 		Manual
 		Automatic
-- Seller type must be:
+- Seller type must be :
 		Dealer
 		Trustmark Dealer
 		Individual
