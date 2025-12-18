@@ -49,6 +49,7 @@ curl -X POST https://used-car-prices-project.onrender.com/add_car/ \
   "vehicle_age": 5
 }'
 ```
+You can replace the above example data with your case.
 
 ### 3. Get Car Data by ID
 
@@ -77,6 +78,9 @@ curl -X POST https://used-car-prices-project.onrender.com/predict_price/
 		Dealer
 		Trustmark Dealer
 		Individual
+- Fuel type must be : 
+        Petrol
+        Diesel
 - All the numeric features must be positive.
 
 ---
