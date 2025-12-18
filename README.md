@@ -54,7 +54,7 @@ curl -X POST https://used-car-prices-project.onrender.com/add_car/ \
 
 Retrieve stored car data using its index
 
-````bash
+```bash
 curl https://used-car-prices-project.onrender.com/cars/0/
 ```
 
@@ -78,6 +78,7 @@ curl -X POST https://used-car-prices-project.onrender.com/predict_price/
 		Trustmark Dealer
 		Individual
 - All the numeric features must be positive.
+
 ---
 
 ## Swagger UI
